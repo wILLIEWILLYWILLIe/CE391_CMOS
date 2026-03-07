@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS391
+* Top Cell Name: NOR2
+* View Name:     schematic
+* Netlisted on:  Feb  6 16:48:30 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: EECS391
+* Cell Name:    NOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR2 A B gnd out vdd
+*.PININFO A:I B:I out:O gnd:B vdd:B
+MM1 out B net16 vdd PMOS_VTG W=1.2u L=50n m=1
+MM0 net16 A vdd vdd PMOS_VTG W=1.2u L=50n m=1
+MM3 out A gnd gnd NMOS_VTG W=400n L=50n m=1
+MM2 out B gnd gnd NMOS_VTG W=400n L=50n m=1
+.ENDS
+

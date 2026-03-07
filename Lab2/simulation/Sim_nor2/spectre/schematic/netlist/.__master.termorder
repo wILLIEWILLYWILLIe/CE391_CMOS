@@ -1,0 +1,2 @@
+"EECS391.inverter.schematic.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))
+"EECS391.NOR2.schematic.termorder" (("A" "B" "gnd" "out" "vdd") ("A" "B" "gnd" "out" "vdd"))

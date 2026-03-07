@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+EECS391/MUX2/schematic MUX2
+EECS391/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

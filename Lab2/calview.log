@@ -1,0 +1,15 @@
+//
+//  CalibreView Settings:
+//	  Netlist File: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.pex.netlist
+//	  Output Library: EECS391
+//	  Schematic Library: EECS391
+//	  Cellmap File: ./calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: maskLayout
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Reset Properties: ("m=1")
+//	  Generate SPECTRE Netlist: off
+//

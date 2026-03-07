@@ -1,0 +1,15 @@
+//
+//  CalibreView Settings:
+//	  Netlist File: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.pex.netlist
+//	  Output Library: ECE391Lib
+//	  Schematic Library: ECE391Lib
+//	  Cellmap File: ./calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: maskLayout
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Reset Properties: ("m=1")
+//	  Generate SPECTRE Netlist: on
+//

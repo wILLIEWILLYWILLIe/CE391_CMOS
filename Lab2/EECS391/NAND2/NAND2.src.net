@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS391
+* Top Cell Name: NAND2
+* View Name:     schematic
+* Netlisted on:  Feb  9 20:41:40 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: EECS391
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 A B gnd out vdd
+*.PININFO A:I B:I out:O gnd:B vdd:B
+MM1 out B net19 gnd NMOS_VTG W=800n L=50n m=1
+MM0 net19 A gnd gnd NMOS_VTG W=800n L=50n m=1
+MM3 out B vdd vdd PMOS_VTG W=600n L=50n m=1
+MM2 out A vdd vdd PMOS_VTG W=600n L=50n m=1
+.ENDS
+

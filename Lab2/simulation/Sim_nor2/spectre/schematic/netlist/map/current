@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Sim_nor2"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/gel8580/Lab2/simulation/Sim_nor2/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "EECS391/inverter/schematic" "inverter" )
+( "EECS391/Sim_nor2/schematic" "Sim_nor2" )
+( "EECS391/NOR2/schematic" "NOR2" )
+ )
+( "Sim_nor2" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds0/map" )
+( "NOR2" "ihnl/cds1/map" )
+ )

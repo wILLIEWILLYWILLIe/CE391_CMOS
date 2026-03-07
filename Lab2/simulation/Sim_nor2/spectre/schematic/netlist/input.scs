@@ -1,0 +1,67 @@
+// Generated for: spectre
+// Generated on: Feb  4 16:21:40 2026
+// Design library name: EECS391
+// Design cell name: Sim_nor2
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters vdd=1.1
+include "/vol/eecs391/FreePDK45/ncsu_basekit/models/hspice/hspice_nom.include"
+
+// Library name: EECS391
+// Cell name: inverter
+// View name: schematic
+subckt inverter gnd in out vdd
+    M0 (out in gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M1 (out in vdd vdd) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+ends inverter
+// End of subcircuit definition.
+
+// Library name: EECS391
+// Cell name: NOR2
+// View name: schematic
+subckt NOR2 A B gnd out vdd
+    M1 (out B net16 vdd) PMOS_VTG w=1.2u l=50n as=1.26e-13 ad=1.26e-13 \
+        ps=1.41u pd=1.41u ld=105n ls=105n m=1
+    M0 (net16 A vdd vdd) PMOS_VTG w=1.2u l=50n as=1.26e-13 ad=1.26e-13 \
+        ps=1.41u pd=1.41u ld=105n ls=105n m=1
+    M3 (out A gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M2 (out B gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+ends NOR2
+// End of subcircuit definition.
+
+// Library name: EECS391
+// Cell name: Sim_nor2
+// View name: schematic
+I15 (gnd net04 in_B vdd) inverter
+I13 (gnd out net09 vdd) inverter
+I7 (gnd net2 in_A vdd) inverter
+I9 (gnd out net08 vdd) inverter
+I10 (gnd out net07 vdd) inverter
+I11 (gnd out net06 vdd) inverter
+V_A (net2 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=10n \
+        delay=1n rise=20p fall=20p width=5n
+V_B (net04 gnd) vsource dc=0 type=pulse val0=0 val1=1.1V period=20n \
+        delay=1n rise=20p fall=20p width=10n
+V2 (gnd 0) vsource dc=0 type=dc
+V1 (vdd 0) vsource dc=vdd type=dc
+I16 (in_A in_B gnd out vdd) NOR2
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=50n errpreset=moderate write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save I16:5 in_B in_A 
+saveOptions options save=allpub

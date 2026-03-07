@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gel8580/CE391/Lab2/EECS391/NOR2
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT /home/gel8580/CE391/Lab2/EECS391/NOR2/NOR2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gel8580/CE391/Lab2/EECS391/NOR2/NOR2.src.net
+lvs_LvsOutFile RULES_FILE /home/gel8580/CE391/Lab2/EECS391/NOR2/_calibrexRC.rul_
+lvs_LvsRunTimes 1770675349 1770675349

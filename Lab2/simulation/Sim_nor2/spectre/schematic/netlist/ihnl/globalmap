@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+EECS391/NOR2/schematic NOR2
+EECS391/Sim_nor2/schematic Sim_nor2
+EECS391/inverter/schematic inverter
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+$endparam

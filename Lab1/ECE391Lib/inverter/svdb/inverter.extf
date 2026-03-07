@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1768530440 1768530441
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab1/ECE391Lib/inverter
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab1/ECE391Lib/inverter/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab1/ECE391Lib/inverter/svdb/inverter.sp
+lvs_ExtOutFile EXTRACTION_REPORT inverter.lvs.report.ext

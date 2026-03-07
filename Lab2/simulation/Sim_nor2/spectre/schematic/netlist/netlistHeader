@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Feb  4 16:21:40 2026
+// Design library name: EECS391
+// Design cell name: Sim_nor2
+// Design view name: schematic
+simulator lang=spectre
+global 0

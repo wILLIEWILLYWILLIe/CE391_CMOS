@@ -1,0 +1,29 @@
+*pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
+*pexRunDir: /home/gel8580/CE391/Lab1/ECE391Lib/inverter
+*pexLayoutPaths: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.calibre.db
+*pexLayoutPrimary: inverter
+*pexLayoutLibrary: ECE391Lib
+*pexLayoutView: layout
+*pexLayoutGetFromViewer: 1
+*pexSourcePath: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.src.net
+*pexSourcePrimary: inverter
+*pexSourceLibrary: ECE391Lib
+*pexSourceGetFromViewer: 1
+*pexIncludeSVRFCmds: 1
+*pexSVRFCmds: {LAYOUT CASE YES} {SOURCE CASE YES} {}
+*pexReportFile: inverter.lvs.report
+*pexPexNetlistFile: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.pex.netlist
+*pexPexNetlistFormat: CALIBREVIEW
+*pexPexReport: 1
+*pexPexReportFile: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.pex.report
+*pexStartRVE: 1
+*pexMaskDBFile: inverter.maskdb
+*cmnShowOptions: 1
+*cmnUseCBforRVE: 0
+*cmnRunHier: 2
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ECE391Lib
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: inverter.def

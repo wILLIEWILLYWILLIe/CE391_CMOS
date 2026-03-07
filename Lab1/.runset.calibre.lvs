@@ -1,0 +1,23 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /home/gel8580/CE391/Lab1/ECE391Lib/inverter
+*lvsLayoutPaths: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.calibre.db
+*lvsLayoutPrimary: inverter
+*lvsLayoutLibrary: ECE391Lib
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.src.net
+*lvsSourcePrimary: inverter
+*lvsSourceLibrary: ECE391Lib
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: inverter.sp
+*lvsERCDatabase: inverter.erc.results
+*lvsERCSummaryFile: inverter.erc.summary
+*lvsReportFile: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/inverter.lvs.report
+*lvsSVDBDir: /home/gel8580/CE391/Lab1/ECE391Lib/inverter/svdb
+*lvsMaskDBFile: inverter.maskdb
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: ECE391Lib
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: inverter.def

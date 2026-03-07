@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "MUX2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/gel8580/CE391/Lab2/EECS391/MUX2"
+ )
+( model
+( "EECS391/inverter/schematic" "inverter" )
+( "EECS391/MUX2/schematic" "MUX2" )
+ )
+( "inverter" "ihnl/cds0/map" )
+( "MUX2" "ihnl/cds1/map" )
+ )

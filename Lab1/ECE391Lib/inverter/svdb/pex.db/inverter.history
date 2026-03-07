@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Thu Jan 15 20:27:21 2026 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/gel8580/CE391/Lab1/ECE391Lib/inverter/_calibrexRC.rul_"
+"Thu Jan 15 20:27:22 2026 " "v2011.4_35.27" "-xrc -fmt -all /home/gel8580/CE391/Lab1/ECE391Lib/inverter/_calibrexRC.rul_"

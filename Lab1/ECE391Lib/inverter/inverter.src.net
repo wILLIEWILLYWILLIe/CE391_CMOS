@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE391Lib
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  Jan 15 20:27:19 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE391Lib
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter gnd in out vdd
+*.PININFO in:I out:O gnd:B vdd:B
+MM0 out in gnd gnd NMOS_VTG W=400n L=50n m=1
+MM1 out in vdd vdd PMOS_VTG W=600n L=50n m=1
+.ENDS
+

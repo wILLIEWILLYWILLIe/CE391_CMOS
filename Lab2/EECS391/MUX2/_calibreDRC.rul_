@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Mon Feb 09 21:17:38 CST 2026
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "MUX2.calibre.db"
+LAYOUT PRIMARY "MUX2"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "MUX2.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "MUX2.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

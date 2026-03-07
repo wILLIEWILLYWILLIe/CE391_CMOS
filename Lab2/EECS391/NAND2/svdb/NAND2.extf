@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1770691301 1770691301
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab2/EECS391/NAND2
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab2/EECS391/NAND2/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab2/EECS391/NAND2/svdb/NAND2.sp
+lvs_ExtOutFile EXTRACTION_REPORT NAND2.lvs.report.ext

@@ -1,0 +1,5 @@
+
+// Library name: EECS391
+// Cell name: NOR2
+// View name: schematic
+subckt NOR2 A B gnd out vdd

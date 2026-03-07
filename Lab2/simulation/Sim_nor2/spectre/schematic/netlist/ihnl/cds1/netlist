@@ -1,0 +1,10 @@
+    M1 (out B net16 vdd) PMOS_VTG w=1.2u l=50n as=1.26e-13 ad=1.26e-13 \
+        ps=1.41u pd=1.41u ld=105n ls=105n m=1
+    M0 (net16 A vdd vdd) PMOS_VTG w=1.2u l=50n as=1.26e-13 ad=1.26e-13 \
+        ps=1.41u pd=1.41u ld=105n ls=105n m=1
+    M3 (out A gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M2 (out B gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+ends NOR2
+// End of subcircuit definition.

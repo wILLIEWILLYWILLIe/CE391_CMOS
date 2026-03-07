@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1770675348 1770675349
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab2/EECS391/NOR2
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab2/EECS391/NOR2/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab2/EECS391/NOR2/svdb/NOR2.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/gel8580/CE391/Lab2/EECS391/NOR2/NOR2.lvs.report.ext
