@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: /home/gel8580/CE391/Lab3/my_sram/write_circuit/svdb/write_circuit.dv
+dv_start matched
+dv_cell {write_circuit} {write_circuit} matched
+dv_obj_count -transformed_nets {7 7} -transformed_inst {3 3} -transformed_port {6 6}
+dv_end

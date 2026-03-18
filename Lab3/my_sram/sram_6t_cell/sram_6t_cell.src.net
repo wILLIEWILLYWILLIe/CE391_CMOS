@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  my_sram
+* Top Cell Name: sram_6t_cell
+* View Name:     schematic
+* Netlisted on:  Mar 16 22:04:33 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: my_sram
+* Cell Name:    sram_6t_cell
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT sram_6t_cell BL BLB GND VDD WL
+*.PININFO GND:I VDD:I WL:I BL:B BLB:B
+MM5 net13 net09 GND GND NMOS_VTG W=210.0n L=50n m=1
+MM4 net09 net13 GND GND NMOS_VTG W=210.0n L=50n m=1
+MM3 BLB WL net13 GND NMOS_VTG W=135.00n L=50n m=1
+MM2 BL WL net09 GND NMOS_VTG W=135.00n L=50n m=1
+MM7 net13 net09 VDD VDD PMOS_VTG W=90n L=50n m=1
+MM6 net09 net13 VDD VDD PMOS_VTG W=90n L=50n m=1
+.ENDS
+

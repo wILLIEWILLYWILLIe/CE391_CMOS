@@ -1,0 +1,29 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  my_sram
+* Top Cell Name: precharge_circuit
+* View Name:     schematic
+* Netlisted on:  Mar 16 23:15:17 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: my_sram
+* Cell Name:    precharge_circuit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT precharge_circuit BL BLB PRE_B VDD
+*.PININFO PRE_B:I BL:B BLB:B VDD:B
+MM2 BL PRE_B BLB VDD PMOS_VTG W=180.0n L=50n m=1
+MM1 BLB PRE_B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+MM0 BL PRE_B VDD VDD PMOS_VTG W=180.0n L=50n m=1
+.ENDS
+

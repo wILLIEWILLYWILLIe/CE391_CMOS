@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+my_sram/small_inv/schematic small_inv
+$endmodel
+$net
+$endnet
+$param
+$endparam

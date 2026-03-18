@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1773723877 1773723877
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/small_inv
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/small_inv/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/small_inv/small_inv.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/gel8580/CE391/Lab3/my_sram/small_inv/small_inv.lvs.report.ext

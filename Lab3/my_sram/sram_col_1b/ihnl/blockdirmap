@@ -1,0 +1,8 @@
+CADENCE IHNL11146
+
+my_sram sram_6t_cell schematic cds0
+my_sram precharge_circuit schematic cds1
+my_sram small_inv schematic cds2
+my_sram write_circuit schematic cds3
+my_sram sence_amp schematic cds4
+my_sram sram_col_1b schematic cds5

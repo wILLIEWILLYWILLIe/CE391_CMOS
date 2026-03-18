@@ -1,0 +1,4 @@
+"my_sram.sram_col_1b.calibre.my_sram.sram_col_1b.config.path.termorder" (("BL" "BLB" "D" "PRE_B" "SE" "WL0" "WL1" "WL2" "WL3" "W_EN" "gnd" "vdd") ("BL" "BLB" "D" "PRE_B" "SE" "WL0" "WL1" "WL2" "WL3" "W_EN" "gnd" "vdd"))
+"EECS391.inverter.schematic.my_sram.sram_col_1b.config.path.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))
+"my_sram.small_inv.schematic.my_sram.sram_col_1b.config.path.termorder" (("GND" "VDD" "in" "out") ("GND" "VDD" "in" "out"))
+"my_sram.my4InvLoad.schematic.my_sram.sram_col_1b.config.path.termorder" (("gnd" "in" "out" "vdd") ("gnd" "in" "out" "vdd"))

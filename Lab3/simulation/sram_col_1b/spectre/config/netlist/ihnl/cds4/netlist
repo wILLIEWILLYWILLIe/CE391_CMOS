@@ -1,0 +1,52 @@
+
+// Library name: my_sram
+// Cell name: Sim_whole_col
+// View name: schematic
+// Inherited view list: spectre cmos_sch cmos.sch schematic veriloga ahdl
+// pspice dspf
+I49 (gnd net024 in_WL3 vdd) inverter
+I48 (gnd net022 in_WL2 vdd) inverter
+I47 (gnd net023 in_WL1 vdd) inverter
+I38 (gnd net08 SE vdd) inverter
+I36 (gnd net07 in_WL0 vdd) inverter
+I34 (gnd net06 in_Pre vdd) inverter
+I24 (gnd net05 in_WEN vdd) inverter
+I7 (gnd net2 in_D vdd) inverter
+V2 (gnd 0) vsource dc=0 type=dc
+V1 (vdd 0) vsource dc=vdd type=dc
+I40 (gnd BL net027 vdd) my4InvLoad
+I39 (gnd BLB net026 vdd) my4InvLoad
+I46 (BL BLB in_D in_Pre SE in_WL0 in_WL1 in_WL2 in_WL3 in_WEN gnd vdd) \
+        sram_col_1b
+V11 (net024 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11111111111111111111111111111111111111111111111111100011111111111111111111100001" \
+        rptstart=1 rpttimes=0
+V10 (net022 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11111111111111111111111111111111111000111111111111111111111000011111111111111111" \
+        rptstart=1 rpttimes=0
+V8 (net023 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11111111111111111110001111111111111111111110000111111111111111111111111111111111" \
+        rptstart=1 rpttimes=0
+V6 (net08 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11111111111110011111111111111001111111111111100111111111111110011111111111111001" \
+        rptstart=1 rpttimes=0
+V5 (net07 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11100011111000011111111111100001111111111111111111111111111111111110001111111111" \
+        rptstart=1 rpttimes=0
+V3 (net06 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11000000110000001100000011000000110000001100000011000000110000001100000011000000" \
+        rptstart=1 rpttimes=0
+V7 (net05 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11100011111111111110001111111111111000111111111111100011111111111110001111111111" \
+        rptstart=1 rpttimes=0
+V9 (net2 gnd) vsource val1=1.1 val0=0 delay=0n  rise=50p fall=50p \
+        period=1n type=bit \
+        data="11111111111111110000000000000000111111111111111100000000000000001111111111111111" \
+        rptstart=1 rpttimes=0

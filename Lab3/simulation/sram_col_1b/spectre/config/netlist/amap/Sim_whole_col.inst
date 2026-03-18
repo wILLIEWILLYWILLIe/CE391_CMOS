@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"I49n I48n I47n I38n I36n I34n I24n I7n" "inverter"
+"V2n V1n" "analogLib_vdc_spectre"
+"I40n I39n" "my4InvLoad"
+"I46n" "sram_col_1b"
+"V11n V10n V8n V6n V5n V3n V7n V9n" "analogLib_vbit_spectre"

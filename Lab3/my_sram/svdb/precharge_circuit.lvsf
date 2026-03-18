@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/precharge_circuit
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT /home/gel8580/CE391/Lab3/my_sram/precharge_circuit/precharge_circuit.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gel8580/CE391/Lab3/my_sram/precharge_circuit.src.net
+lvs_LvsOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/precharge_circuit/_calibreLVS.rul_
+lvs_LvsRunTimes 1773720918 1773720918

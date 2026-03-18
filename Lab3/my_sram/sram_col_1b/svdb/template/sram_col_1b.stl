@@ -1,0 +1,13 @@
+%	sram_col_1b	sram_col_1b
+BL	BL	0	x 0 0
+W_EN	W_EN	0	x 0 0
+D	D	0	x 0 0
+SE	SE	0	x 0 0
+BLB	BLB	0	x 0 0
+gnd	gnd	0	x 0 0
+vdd	vdd	0	x 0 0
+PRE_B	PRE_B	0	x 0 0
+WL0	WL0	0	x 0 0
+WL3	WL3	0	x 0 0
+WL2	WL2	0	x 0 0
+WL1	WL1	0	x 0 0

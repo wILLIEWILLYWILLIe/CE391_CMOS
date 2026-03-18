@@ -1,0 +1,67 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT M1_POLY_CDNS_773800656900
+** N=1 EP=0 IP=0 FDC=0
+.ENDS
+***************************************
+.SUBCKT dcont_CDNS_773800656901
+** N=1 EP=0 IP=0 FDC=0
+.ENDS
+***************************************
+.SUBCKT nmos_vtg_CDNS_7738006569016
+** N=4 EP=0 IP=1 FDC=0
+*.SEEDPROM
+.ENDS
+***************************************
+.SUBCKT pmos_vtg_CDNS_7738006569010
+** N=4 EP=0 IP=2 FDC=0
+*.SEEDPROM
+.ENDS
+***************************************
+.SUBCKT nmos_vtg_CDNS_773800656909
+** N=4 EP=0 IP=2 FDC=0
+*.SEEDPROM
+.ENDS
+***************************************
+.SUBCKT nmos_vtg_CDNS_773800656900 1 2 3 4
+** N=4 EP=4 IP=2 FDC=1
+M0 2 3 1 4 NMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.4175e-14 PD=4.8e-07 PS=4.8e-07 $X=0 $Y=0 $D=5
+.ENDS
+***************************************
+.SUBCKT sram_6t_cell BL BLB gnd vdd WL
+** N=7 EP=5 IP=17 FDC=6
+M0 gnd 6 3 gnd NMOS_VTG L=5e-08 W=2.1e-07 AD=2.94e-14 AS=2.205e-14 PD=7e-07 PS=6.3e-07 $X=3310 $Y=5325 $D=5
+M1 6 3 gnd gnd NMOS_VTG L=5e-08 W=2.1e-07 AD=2.205e-14 AS=2.94e-14 PD=6.3e-07 PS=7e-07 $X=3690 $Y=5325 $D=5
+M2 vdd 6 3 vdd PMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=9.45e-15 PD=4.6e-07 PS=3.9e-07 $X=3310 $Y=6485 $D=4
+M3 6 3 vdd vdd PMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=3690 $Y=6485 $D=4
+X13 BL 3 WL gnd nmos_vtg_CDNS_773800656900 $T=3100 4795 1 90 $X=2990 $Y=4475
+X14 BLB 6 WL gnd nmos_vtg_CDNS_773800656900 $T=4000 4795 0 90 $X=3620 $Y=4475
+.ENDS
+***************************************
+.SUBCKT sram_col_1b BL W_EN D SE BLB gnd vdd PRE_B WL0 WL3 WL2 WL1
+** N=18 EP=12 IP=73 FDC=42
+M0 17 W_EN BL gnd NMOS_VTG L=5e-08 W=1.8e-07 AD=2.52e-14 AS=1.89e-14 PD=6.4e-07 PS=5.7e-07 $X=685 $Y=4785 $D=5
+M1 6 BLB BL gnd NMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=9.45e-15 PD=4.6e-07 PS=3.9e-07 $X=1240 $Y=1845 $D=5
+M2 18 5 gnd gnd NMOS_VTG L=5e-08 W=1.8e-07 AD=2.52e-14 AS=2.52e-14 PD=6.4e-07 PS=6.4e-07 $X=1445 $Y=4785 $D=5
+M3 6 SE gnd gnd NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=1620 $Y=945 $D=5
+M4 gnd D 17 gnd NMOS_VTG L=5e-08 W=1.8e-07 AD=2.52e-14 AS=2.52e-14 PD=6.4e-07 PS=6.4e-07 $X=1065 $Y=4785 $D=5
+M5 BLB W_EN 18 gnd NMOS_VTG L=5e-08 W=1.8e-07 AD=1.89e-14 AS=2.52e-14 PD=5.7e-07 PS=6.4e-07 $X=1825 $Y=4785 $D=5
+M6 5 D gnd gnd NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=9.45e-15 PD=3.9e-07 PS=3.9e-07 $X=1235 $Y=5765 $D=5
+M7 gnd SE 11 gnd NMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=9.45e-15 PD=4.6e-07 PS=3.9e-07 $X=1240 $Y=945 $D=5
+M8 BLB BL 6 gnd NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=1620 $Y=1845 $D=5
+M9 vdd PRE_B BL vdd PMOS_VTG L=5e-08 W=1.8e-07 AD=2.52e-14 AS=1.89e-14 PD=6.4e-07 PS=5.7e-07 $X=1050 $Y=18145 $D=4
+M10 BL PRE_B BLB vdd PMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=9.45e-15 PD=4.6e-07 PS=3.9e-07 $X=1050 $Y=18805 $D=4
+M11 7 BLB BL vdd PMOS_VTG L=5e-08 W=1.35e-07 AD=1.89e-14 AS=1.4175e-14 PD=5.5e-07 PS=4.8e-07 $X=1240 $Y=2785 $D=4
+M12 BLB PRE_B vdd vdd PMOS_VTG L=5e-08 W=1.8e-07 AD=1.89e-14 AS=2.52e-14 PD=5.7e-07 PS=6.4e-07 $X=1430 $Y=18145 $D=4
+M13 BLB PRE_B BL vdd PMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=1430 $Y=18805 $D=4
+M14 7 11 vdd vdd PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.89e-14 PD=4.8e-07 PS=5.5e-07 $X=1620 $Y=3725 $D=4
+M15 5 D vdd vdd PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.4175e-14 PD=4.8e-07 PS=4.8e-07 $X=1235 $Y=6615 $D=4
+M16 vdd SE 11 vdd PMOS_VTG L=5e-08 W=1.35e-07 AD=1.89e-14 AS=1.4175e-14 PD=5.5e-07 PS=4.8e-07 $X=1240 $Y=3725 $D=4
+M17 BLB BL 7 vdd PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.89e-14 PD=4.8e-07 PS=5.5e-07 $X=1620 $Y=2785 $D=4
+X47 BL BLB gnd vdd WL3 sram_6t_cell $T=-2260 14195 1 0 $X=730 $Y=7000
+X48 BL BLB gnd vdd WL2 sram_6t_cell $T=-2260 5535 0 0 $X=730 $Y=9660
+X49 BL BLB gnd vdd WL1 sram_6t_cell $T=-2260 19495 1 0 $X=730 $Y=12300
+X50 BL BLB gnd vdd WL0 sram_6t_cell $T=-2260 10835 0 0 $X=730 $Y=14960
+.ENDS
+***************************************

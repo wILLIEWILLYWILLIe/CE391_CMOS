@@ -1,0 +1,40 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT dcont_CDNS_773855028991
+** N=1 EP=0 IP=0 FDC=0
+.ENDS
+***************************************
+.SUBCKT nmos_vtg_CDNS_773855028994 1 2 3 4
+** N=4 EP=4 IP=1 FDC=1
+M0 3 2 1 4 NMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=9.45e-15 PD=4.6e-07 PS=3.9e-07 $X=0 $Y=0 $D=5
+.ENDS
+***************************************
+.SUBCKT pmos_vtg_CDNS_773855028992
+** N=4 EP=0 IP=2 FDC=0
+*.SEEDPROM
+.ENDS
+***************************************
+.SUBCKT M1_POLY_CDNS_773855028990
+** N=1 EP=0 IP=0 FDC=0
+.ENDS
+***************************************
+.SUBCKT nmos_vtg_CDNS_773855028990
+** N=4 EP=0 IP=2 FDC=0
+*.SEEDPROM
+.ENDS
+***************************************
+.SUBCKT sence_amp BLB SE_out SE BL VDD GND
+** N=9 EP=6 IP=39 FDC=10
+M0 1 SE GND GND NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=1240 $Y=265 $D=5
+M1 BLB BL 1 GND NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=1.26e-14 PD=3.9e-07 PS=4.6e-07 $X=1595 $Y=1165 $D=5
+M2 SE_out SE BLB GND NMOS_VTG L=5e-08 W=9e-08 AD=9.45e-15 AS=9.45e-15 PD=3.9e-07 PS=3.9e-07 $X=1920 $Y=265 $D=5
+M3 2 BLB BL VDD PMOS_VTG L=5e-08 W=1.35e-07 AD=1.89e-14 AS=1.4175e-14 PD=5.5e-07 PS=4.8e-07 $X=1215 $Y=2105 $D=4
+M4 2 5 VDD VDD PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.89e-14 PD=4.8e-07 PS=5.5e-07 $X=1295 $Y=3045 $D=4
+M5 VDD SE 5 VDD PMOS_VTG L=5e-08 W=1.35e-07 AD=1.89e-14 AS=1.4175e-14 PD=5.5e-07 PS=4.8e-07 $X=915 $Y=3045 $D=4
+M6 BLB BL 2 VDD PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.89e-14 PD=4.8e-07 PS=5.5e-07 $X=1595 $Y=2105 $D=4
+M7 SE_out 5 BLB VDD PMOS_VTG L=5e-08 W=1.35e-07 AD=1.4175e-14 AS=1.4175e-14 PD=4.8e-07 PS=4.8e-07 $X=1975 $Y=3045 $D=4
+X10 5 SE GND GND nmos_vtg_CDNS_773855028994 $T=860 265 0 0 $X=540 $Y=155
+X11 BL BLB 1 GND nmos_vtg_CDNS_773855028994 $T=1215 1165 0 0 $X=895 $Y=1055
+.ENDS
+***************************************

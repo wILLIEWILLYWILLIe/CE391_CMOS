@@ -1,29 +1,30 @@
 *pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
-*pexRunDir: /home/gel8580/CE391/Lab2/EECS391/MUX2
-*pexLayoutPaths: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.calibre.db
-*pexLayoutPrimary: MUX2
-*pexLayoutLibrary: EECS391
+*pexRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
+*pexLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_col_1bsram_col_1b.calibre.db
+*pexLayoutPrimary: sram_col_1b
+*pexLayoutLibrary: my_sram
 *pexLayoutView: layout
 *pexLayoutGetFromViewer: 1
-*pexSourcePath: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.src.net
-*pexSourcePrimary: MUX2
-*pexSourceLibrary: EECS391
+*pexSourcePath: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.src.net
+*pexSourcePrimary: sram_col_1b
+*pexSourceLibrary: my_sram
 *pexSourceGetFromViewer: 1
 *pexIncludeSVRFCmds: 1
 *pexSVRFCmds: {LAYOUT CASE YES} {SOURCE CASE YES} {}
-*pexReportFile: MUX2.lvs.report
-*pexPexNetlistFile: /home/gel8580/CE391/Lab2/EECS391/MUX2/MUX2.pex.netlist
+*pexReportFile: sram_col_1b.lvs.report
+*pexPexNetlistFile: sram_col_1b.pex.netlist
 *pexPexNetlistFormat: CALIBREVIEW
 *pexPexReport: 1
-*pexPexReportFile: MUX2.pex.report
+*pexPexReportFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.pex.report
+*pexSVDBDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb
 *pexStartRVE: 1
-*pexMaskDBFile: MUX2.maskdb
+*pexMaskDBFile: sram_col_1b.maskdb
 *cmnShowOptions: 1
 *cmnUseCBforRVE: 0
 *cmnRunHier: 2
 *cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
 *cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
-*cmnFDILayoutLibrary: EECS391
+*cmnFDILayoutLibrary: my_sram
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: MUX2.def
+*cmnFDIDEFLayoutPath: sram_col_1b.def

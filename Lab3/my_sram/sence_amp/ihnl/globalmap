@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+my_sram/sence_amp/schematic sence_amp
+$endmodel
+$net
+$endnet
+$param
+$endparam

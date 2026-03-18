@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1773855031 1773855031
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/sence_amp
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sence_amp/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/sence_amp/sence_amp.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/gel8580/CE391/Lab3/my_sram/sence_amp/sence_amp.lvs.report.ext

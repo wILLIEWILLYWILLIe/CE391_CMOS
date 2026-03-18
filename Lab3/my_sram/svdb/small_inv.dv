@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: /home/gel8580/CE391/Lab3/my_sram/svdb/small_inv.dv
+dv_start matched
+dv_cell {small_inv} {small_inv} matched
+dv_obj_count -transformed_nets {4 4} -transformed_inst {1 1} -transformed_port {4 4}
+dv_end

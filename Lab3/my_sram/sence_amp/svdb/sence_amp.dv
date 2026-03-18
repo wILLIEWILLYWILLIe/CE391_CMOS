@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: /home/gel8580/CE391/Lab3/my_sram/sence_amp/svdb/sence_amp.dv
+dv_start matched
+dv_cell {sence_amp} {sence_amp} matched
+dv_obj_count -transformed_nets {9 9} -transformed_inst {6 6} -transformed_port {6 6}
+dv_end

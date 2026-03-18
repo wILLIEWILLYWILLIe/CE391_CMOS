@@ -1,0 +1,15 @@
+CADENCE IHNL11140
+$model
+my_sram/Sim_whole_col/schematic my_sram/Sim_whole_col/schematic/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf/my_sram_sram_col_1b_config/1 Sim_whole_col
+my_sram/my4InvLoad/schematic my_sram/my4InvLoad/schematic/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf/my_sram_sram_col_1b_config/0 my4InvLoad
+my_sram/sram_col_1b/calibre my_sram/sram_col_1b/calibre/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf/my_sram_sram_col_1b_config/0 sram_col_1b
+my_sram/small_inv/schematic my_sram/small_inv/schematic/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf/my_sram_sram_col_1b_config/0 small_inv
+EECS391/inverter/schematic EECS391/inverter/schematic/spectre_cmos_sch_cmos.sch_schematic_veriloga_ahdl_pspice_dspf/my_sram_sram_col_1b_config/0 inverter
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+n _gpar2
+$endparam

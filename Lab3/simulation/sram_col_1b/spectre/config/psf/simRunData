@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"my_sram\" \"sram_col_1b\" \"config\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Mar 18 10:35:50 2026"
+"title" ""
+"analysisList" "()"
+END

@@ -1,0 +1,4 @@
+CADENCE IHNL11142
+
+my_sram small_inv schematic cds0
+my_sram write_circuit schematic cds1

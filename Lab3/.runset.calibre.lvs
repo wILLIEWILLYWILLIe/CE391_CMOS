@@ -1,22 +1,23 @@
 *lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
-*lvsRunDir: /home/gel8580/CE391/Lab2/EECS391/MUX2
-*lvsLayoutPaths: MUX2.calibre.db
-*lvsLayoutPrimary: MUX2
-*lvsLayoutLibrary: EECS391
+*lvsRunDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b
+*lvsLayoutPaths: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.calibre.db
+*lvsLayoutPrimary: sram_col_1b
+*lvsLayoutLibrary: my_sram
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: MUX2.src.net
-*lvsSourcePrimary: MUX2
-*lvsSourceLibrary: EECS391
+*lvsSourcePath: sram_col_1b.src.net
+*lvsSourcePrimary: sram_col_1b
+*lvsSourceLibrary: my_sram
 *lvsSourceGetFromViewer: 1
-*lvsSpiceFile: MUX2.sp
-*lvsERCDatabase: MUX2.erc.results
-*lvsERCSummaryFile: MUX2.erc.summary
-*lvsReportFile: MUX2.lvs.report
-*lvsMaskDBFile: MUX2.maskdb
+*lvsSpiceFile: sram_col_1b.sp
+*lvsERCDatabase: sram_col_1b.erc.results
+*lvsERCSummaryFile: sram_col_1b.erc.summary
+*lvsReportFile: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/sram_col_1b.lvs.report
+*lvsSVDBDir: /home/gel8580/CE391/Lab3/my_sram/sram_col_1b/svdb
+*lvsMaskDBFile: sram_col_1b.maskdb
 *cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
 *cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
-*cmnFDILayoutLibrary: EECS391
+*cmnFDILayoutLibrary: my_sram
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: MUX2.def
+*cmnFDIDEFLayoutPath: sram_col_1b.def

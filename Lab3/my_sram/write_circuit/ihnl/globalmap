@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+my_sram/small_inv/schematic small_inv
+my_sram/write_circuit/schematic write_circuit
+$endmodel
+$net
+$endnet
+$param
+$endparam

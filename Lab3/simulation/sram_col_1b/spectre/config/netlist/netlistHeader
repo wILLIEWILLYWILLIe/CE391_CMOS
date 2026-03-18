@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 18 10:35:50 2026
+// Design library name: my_sram
+// Design cell name: Sim_whole_col
+// Design view name: config
+simulator lang=spectre
+global 0

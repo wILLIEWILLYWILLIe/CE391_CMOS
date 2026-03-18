@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1773777859 1773777859
+lvs_ExtOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/precharge_circuit
+lvs_ExtOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/precharge_circuit/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gel8580/CE391/Lab3/my_sram/precharge_circuit/precharge_circuit.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/gel8580/CE391/Lab3/my_sram/precharge_circuit/precharge_circuit.lvs.report.ext

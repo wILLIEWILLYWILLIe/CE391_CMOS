@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gel8580/CE391/Lab3/my_sram/sence_amp
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT /home/gel8580/CE391/Lab3/my_sram/sence_amp/sence_amp.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gel8580/CE391/Lab3/my_sram/sence_amp/sence_amp.src.net
+lvs_LvsOutFile RULES_FILE /home/gel8580/CE391/Lab3/my_sram/sence_amp/_calibreLVS.rul_
+lvs_LvsRunTimes 1773855031 1773855031

@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "write_circuit"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/gel8580/CE391/Lab3/my_sram/write_circuit"
+ )
+( model
+( "my_sram/write_circuit/schematic" "write_circuit" )
+( "my_sram/small_inv/schematic" "small_inv" )
+ )
+( "small_inv" "ihnl/cds0/map" )
+( "write_circuit" "ihnl/cds1/map" )
+ )

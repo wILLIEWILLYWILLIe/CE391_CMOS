@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "precharge_circuit"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/gel8580/CE391/Lab3/my_sram/precharge_circuit"
+ )
+( model
+( "my_sram/precharge_circuit/schematic" "precharge_circuit" )
+ )
+( "precharge_circuit" "ihnl/cds0/map" )
+ )

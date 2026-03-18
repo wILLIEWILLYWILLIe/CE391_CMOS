@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: /home/gel8580/CE391/Lab3/my_sram/svdb/precharge_circuit.dv
+dv_start matched
+dv_cell {precharge_circuit} {precharge_circuit} matched
+dv_obj_count -transformed_nets {4 4} -transformed_inst {3 3} -transformed_port {4 4}
+dv_end
