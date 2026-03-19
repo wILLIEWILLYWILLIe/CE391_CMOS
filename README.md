@@ -2,6 +2,31 @@
 
 This folder contains the laboratories and project files for the CE391 CMOS Design course. It is configured to use the Cadence Virtuoso toolset with the FreePDK45 technology library.
 
+## Directory Contents & Lab Reports
+
+- **[Lab 1: CMOS Inverter Design & Layout](Lab1/CMOS_Lab1_gel8580.pdf)**
+  Introduction to the Cadence Virtuoso toolset. Covers the schematic design, simulation, layout, DRC, and LVS verification of a basic CMOS inverter.
+- **[Lab 2: NAND2 Gate Design](Lab2/CMOS_Lab2.pdf)**
+  Focuses on the logical effort, theoretical transistor sizing, schematic simulation, and standard cell layout of a 2-input NAND gate, NOR gate, and MUX21.
+- **[Lab 3: 4x4 SRAM Array Design (Focus Project)](Lab3/CMOS_Lab3.pdf)**
+  Comprehensive design of a 4x4 SRAM array including the 6T SRAM bitcell, bitline precharge circuits, write drivers, and sense amplifiers. Includes post-layout simulations and full array layout.
+- `Virtuoso_Tutorial.pdf`: Full step-by-step tutorial for the design flow.
+- `env_vir.csh`: Environment variables and setup script.
+- `cds.lib`: Cadence library definitions.
+
+### Lab 3: SRAM Array Highlights
+
+Below are some key figures from the Lab 3 SRAM implementation:
+
+**4x4 SRAM Array Layout**
+
+<img src="Figures/sram_4x4_layout.png" alt="4x4 SRAM Array Layout" width="300">
+
+**Post-Layout Simulation Waveforms**
+
+<img src="Figures/wave_post_0.8n.png" alt="Post-Layout Simulation Waveforms" width="500">
+
+
 ## Environment Setup
 
 > [!IMPORTANT]
@@ -83,11 +108,3 @@ Refer to the [Virtuoso_Tutorial.pdf](Virtuoso_Tutorial.pdf) for detailed step-by
 | `z` | Zoom In |
 | `Shift + f` | Show Detailed PCells |
 | `Ctrl + f` | Hide PCell Details |
-
-## Directory Contents
-- `Lab1/`: Laboratory 1 project files.
-- `Lab2/`: Laboratory 2 project files.
-- `Lab3/`: Laboratory 3 SRAM Design files.
-- `Virtuoso_Tutorial.pdf`: Full step-by-step tutorial for the design flow.
-- `env_vir.csh`: Environment variables and setup script.
-- `cds.lib`: Cadence library definitions.
